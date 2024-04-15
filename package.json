@@ -1,0 +1,27 @@
+{
+  "name": "Coding",
+  "productName": "Coding",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "janul",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "28.2.0",
+    "@electron-forge/cli": "7.2.0",
+    "@electron-forge/maker-deb": "7.2.0",
+    "@electron-forge/maker-rpm": "7.2.0",
+    "@electron-forge/maker-squirrel": "7.2.0",
+    "@electron-forge/maker-zip": "7.2.0"
+  },
+  "config": {},
+  "license": "MIT"
+}

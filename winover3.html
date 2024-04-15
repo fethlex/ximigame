@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Win</title>
+  <link rel="stylesheet" type="text/css" href="win.css">
+</head>
+
+<body>
+  <h1>Winner!</h1>
+  <p>This is the end. You can try again just for fun!</p>
+  <button onclick="location.href = 'index.html';">Try Again!</button>
+
+  <script>
+    var beastw = new Audio('beastwin.mp3');
+    beastw.play();
+
+    // Function to handle keydown event
+    function handleKeyDown(event) {
+      // Check if the key pressed is Enter (key code 13)
+      if (event.keyCode === 13) {
+        // Trigger click event of the "Try Again!" button
+        document.querySelector('button').click();
+      }
+    }
+
+    // Add event listener to the document body to listen for keydown event
+    document.body.addEventListener('keydown', handleKeyDown);
+  </script>
+
+  <footer style="margin-top: 20px; font-size: 0.8em; color: #999;">
+    &copy; 2024 Ximi by <a href="your-bio/index.html" style="text-decoration: none; color: inherit;">Fethlex</a>
+  </footer>
+</body>
+
+</html>
