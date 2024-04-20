@@ -1,81 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ximi Level 1</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        h1 {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        #game-board {
-            width: 100%;
-            text-align: center;
-        }
-
-        #score-container {
-            text-align: center;
-            margin-top: 10px;
-            font-size: 1.2em;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-            color: #999;
-        }
-
-        .arrow-buttons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .arrow-buttons button {
-            font-size: 1.5em;
-            margin: 0 10px;
-            padding: 10px 20px;
-            background-color: #ccc;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+  <title>Ximi Level 1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+  <h1>Ximi Level 1</h1>
 </head>
 
 <body>
-    <h1>Ximi Level 1</h1>
-    <div id="game-board"></div>
-    <div class="arrow-buttons">
-        <button id="up-button">&uarr;</button>
-        <button id="left-button">&larr;</button>
-        <button id="down-button">&darr;</button>
-        <button id="right-button">&rarr;</button>
-    </div>
-    <div id="score-container">
-        Score: <span id="coinscore" class="score">0</span>
-    </div>
+  <table id="game-board"></table>
+  </div>
+  <div id="score-container">
+    Score: <span id="coinscore" class="score">0</span>
+  </div>
 
-    <footer>&copy; 2024 Ximi by Fethlex</footer>
+  <footer style="margin-top: 20px; font-size: 0.8em; color: #999;">&copy; 2024 Ximi by Fethlex</footer>
 
-    <script src="script.js"></script>
-    <script src="ai.js"></script>
-    <script>
-        // Your JavaScript code here
-    </script>
+
+  <script src="script.js"></script>
+  <script src="ai.js"></script>
 </body>
 
-</html>
+</html><!-- Empty -->
